@@ -3,9 +3,7 @@ kind: API
 metadata:
   name: my-service
   description: My awesome service
-  owner: team-a
 spec:
   type: service
   lifecycle: production
-  owner: team-a
   system: my-system
