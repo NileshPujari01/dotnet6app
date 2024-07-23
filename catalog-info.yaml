@@ -1,9 +1,12 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
-  name: my-service
-  description: My awesome service
+  name: 'backstage-latest-version'
+  description: 'a description'
+  annotations:
+    jenkins.io/job-full-name: 'folder-name/project-name' # use this instead
+
 spec:
   type: service
-  lifecycle: production
-  system: my-system
+  lifecycle: experimental
+  owner: Nilesh Pujari
