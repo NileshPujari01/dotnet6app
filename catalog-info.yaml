@@ -4,7 +4,7 @@ metadata:
   name: 'backstage-latest-version'
   description: 'a description'
   annotations:
-    jenkins.io/job-full-name: 'folder-name/project-name' # use this instead
+    jenkins.io/job-full-name: 'folder-name/project-name'
 
 spec:
   type: service
